@@ -25,6 +25,7 @@ Install `uv` (if not already installed):
 # On most systems
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
+```
 2. Project Structure
 
 The repository is organized in a very simple and predictable way:
