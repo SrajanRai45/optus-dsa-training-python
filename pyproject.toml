@@ -1,0 +1,11 @@
+[project]
+name = "optus-dsa-training-python"
+version = "0.1.0"
+description = "DSA training in here for interviews"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+  "pytest" ,
+  "rich",
+  "ruff"
+]
