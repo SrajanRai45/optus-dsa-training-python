@@ -29,7 +29,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 2. Project Structure
 
 The repository is organized in a very simple and predictable way:
-
+```
 optus-dsa-training-python/
 │
 ├─ pyproject.toml          # Project & dependency configuration used by uv
@@ -50,7 +50,7 @@ optus-dsa-training-python/
    │   └─ ...
    └─ main.py              # Optional entry point if you want to test things
 
-
+```
 ❗ Everything under src/ is pure problem-solving code.
 Nothing in src/ should configure dependencies or environments.
 
