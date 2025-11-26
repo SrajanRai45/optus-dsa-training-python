@@ -17,7 +17,7 @@ def rightAngleTriangle(size: int)->string:
     return result
 
 
-def triangle(size:int):
+def triangle(size:int) -> string:
     mid = size//2 + 1
     result = ""
     for row in range(mid, -1,-1):
