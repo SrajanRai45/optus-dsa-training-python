@@ -6,15 +6,15 @@ console = Console()
 
 # right angle triangle
 def rightAngleTriangle(size: int) -> string:
-    result = ""
+    result = []
     for i in range(size):
         for j in range(size):
-            if i >= j:
-                result += "*"
+            if i <= j:
+                result.append(" ")
             else:
-                result += " "
-        result += "\n"
-    return result
+                result.append("*")
+        result.append("\n")
+    return "".join(result)
 
 
 def triangle(size: int) -> string:
