@@ -1,4 +1,3 @@
-from rich import print
+a = char(65)
+print(a)
 
-numbers = [1, 2, 3, 4]
-print("[bold green]Numbers list:[/]", numbers)
