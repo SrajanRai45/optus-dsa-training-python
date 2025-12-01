@@ -62,13 +62,15 @@ def rightAngleTriangle(size: int) -> string:
 
 def rightAngleTriangle2(size: int) -> string:
     result = []
+    buffer = 0
     for i in range(size -1,-1,-1):
         for j in range(size):
             if i >= j:
-                result.append(f"{size - j} ")
+                result.append(f"{size -buffer - j} ")
             else:
                 result.append(" ")
         result.append("\n")
+        buffer += 1
     return "".join(result)
 
 
